@@ -86,7 +86,7 @@
 
 .about{
     display: flex;
-    height: 400px;
+    height: 500px;
     justify-content: space-around;
     align-items: center;
 
@@ -120,3 +120,62 @@
     letter-spacing: 1px;
     cursor: pointer;
 }
+
+
+/* Service */
+
+.srv{
+    background-image: url("./image/background.png"), linear-gradient(45deg, rgb(21, 21, 21), rgb(30, 29, 29));
+    color: white;
+}
+
+.service{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    
+}
+
+.icon{
+    width: 70px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.card{
+    background-image: url("./image/background.png"), linear-gradient(45deg, rgb(14, 13, 13), rgb(9, 9, 9));
+    margin:  20px;
+    padding: 15px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px gray;
+}
+
+.cardH{
+    font-size: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+.cardp{
+    padding-bottom: 20px;
+    color: rgba(220, 220, 220, 0.515);
+}
+
+.btn3{
+    padding: 8px 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
