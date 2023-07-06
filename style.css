@@ -9,7 +9,7 @@
     justify-content: space-around;
     padding: 20px;
     align-items: center;
-    background-color: rgb(34, 33, 33);
+    background-color: rgb(49, 47, 47);
     color: white;
 }
 
@@ -32,4 +32,91 @@
     padding-right: 10px;
     cursor: pointer;
 
+}
+
+.item:hover{
+    color: #D21312;
+}
+
+.background-container{
+    background-image: url("./image/background.png"), linear-gradient(45deg, rgb(21, 21, 21), rgb(30, 29, 29));
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 100vh;
+     color: white;
+
+}
+
+.photo{
+    width: 400px;
+
+}
+
+.h2{
+    font-size: 50px;
+}
+
+.para{
+    padding-top: 10px;
+    color: rgb(53, 53, 53);
+    color: rgba(255, 255, 255, 0.582);
+}
+
+.btn{
+    background-color: #D21312;
+    color: aliceblue;
+    padding: 15px 20px;
+    border: none;
+    margin-top: 18px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #c82f2f;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.img{
+    width: 300px;
+}
+
+.right{
+    margin-bottom: 80px;
+}
+
+.slogan{
+    font-size: bold;
+    font-size: 25px;
+    padding-bottom: 14px;
+}
+
+
+
+
+.btn2{
+    background-color: #eb0f0f;
+    color: aliceblue;
+    padding: 15px 20px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
