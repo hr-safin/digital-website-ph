@@ -7,7 +7,7 @@
 .main-container{
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 17px;
     align-items: center;
     background-color: rgb(49, 47, 47);
     color: white;
@@ -23,6 +23,8 @@
     list-style: none;
     justify-content: space-between;
     font-size: 16px;
+    align-items: center;
+    
     
 
 }
@@ -31,6 +33,7 @@
     margin-right: 20px;
     padding-right: 10px;
     cursor: pointer;
+    padding-top: 10px;
 
 }
 
@@ -141,6 +144,7 @@
     align-items: center;
     height: 400px;
     text-align: center;
+    padding-bottom: 20px;
     
 }
 
@@ -175,6 +179,60 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    padding-left: 150px;
+    padding-right: 180px;
+
+    
+    list-style: none;
+    background-color: black;
+    color: white;
+}
+
+h2{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.footP{
+    color: rgb(181, 179, 179);
+    padding-bottom: 14px; 
+}
+
+h3{
+    font-size: 35px;
+    padding-bottom: 14px;
+}
+
+li{
+    color: rgb(181, 179, 179);
+    padding-bottom: 14px;
+}
+
+.subFoot{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bottom{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.534);
+    width: 80%;
+    
+}
+
+.copywrite{
+    font-size: 14px;
+    padding-top: 26px;
+    color: rgb(181, 179, 179);
 }
 
 
